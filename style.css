@@ -31,8 +31,8 @@ body{
     width: 50%;
 }
 #part-one img{
-    width: 60%;
-    padding-left: 250px;
+    width: 70%;
+    padding-left: 30px;
 }
 #part-two{
     display:flex;
@@ -94,4 +94,25 @@ footer{
 }
 footer p{
     color: white;
+}
+#extra{
+    padding-top: 50px;
+    text-align: center;
+    color: brown;
+}
+#chloe{
+    display: flex;
+}
+#box{
+    text-align: center;
+    width: 50%;
+    padding-top: 30px;
+    border-right: 5px solid;
+    border-color: lightpink;
+    margin: 100px 100px 150px 100px;
+    box-shadow: 10px 10px 40px 10px violet;
+}
+#chloe img{
+    width: 80%;
+    padding-left: 100px;
 }
