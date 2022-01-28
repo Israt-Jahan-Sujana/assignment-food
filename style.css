@@ -5,6 +5,9 @@ body{
 .orange{
     color: orange;
 }
+.ash{
+    color: rgb(95, 94, 94);
+}
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(orange, red);
@@ -61,10 +64,34 @@ body{
     padding: 15px;
     border: 5px solid;
     border-color: white;
-    box-shadow: 10px 5px 10px 10px rgba(189, 187, 187, 0.425);
+    box-shadow: 10px 10px 20px 10px rgba(189, 187, 187, 0.425);
     border-radius: 30px;
     margin: 20px;
 }
 .food img{
     width: 100%;
+}
+#bottom-part{
+    display: flex;
+    margin: 90px;
+    border-radius: 10px;
+    border:2px solid;
+    border-color: white;
+    box-shadow: 10px 10px 20px 10px rgba(189, 187, 187, 0.425);
+
+}
+.media{
+    width: 33.33%;
+    padding: 30px 140px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 20px
+}
+#grey{
+    color: rgba(168, 165, 165, 0.555);
+}
+footer p{
+    color: white;
 }
