@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .orange{
     color: orange;
@@ -10,7 +11,7 @@ body{
     padding: 13px 30px;
     color: white;
     font-weight: 700;
-    border-radius: 5px;
+    border-radius: 100px;
 }
 #part-one{
     display: flex;
@@ -22,13 +23,13 @@ body{
     font-size: xx-large;
 }
 #paragraph{
-    padding-top: 100px;
+    padding-top: 80px;
     padding-left: 50px;
     width: 50%;
 }
 #part-one img{
-    width: 80%;
-    padding-left: 50px;
+    width: 60%;
+    padding-left: 250px;
 }
 #part-two{
     display:flex;
@@ -43,4 +44,10 @@ body{
     width: 40%;
     padding-left: 200px;
     padding-top: 80px;
+}
+#middle{
+    text-align: center;
+    padding-top: 50px;
+    padding-right: 250px;
+    padding-left: 250px;
 }
